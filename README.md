@@ -3,8 +3,8 @@
 ### Purpose
 ###### Jill wants our help in seeing if we can more accurately predict credit card risk. She wants us to use all methods that we've covered regarding machine learning to see if there is a preferred method moving forward.
 ## Results
-###### {Before we get started - I didn't fully finish the first deliverable before moving on to the next deliverable, since resampling using SMOTEEN took my computer a great deal of time. With the second deliverable, I had to uninstall SciKit 1.0.1 and install 1.0.0, which meant I had to restart Jupyter. Now when I try to run the resampling deliverable, it won't go past the ClusterCentroids line, which is not an issue I was having before. I attached a picture of the error but even though the code is there, the kernel keeps dying and I can't see the output - which is obviously going to affect this analysis. Curtis recommended I download "pyenv" environment so I'm going to try that and hopefully get my whole code to run.}
-![2017 original script run time](https://github.com/liabrooke/Credit_Risk_Analysis/blob/main/kernel_died_error.png) 
+###### before
+![2017 original script run time](https://github.com/liabrooke/Credit_Risk_Analysis/blob/main/eec_balanced_accuracy.png) 
 
 * ###### The first method, random oversampling, produced a balanced accuracy score of .641923.
 * ###### The next method, SMOTE oversampling, produced a balanced accuracy score of .657571.
